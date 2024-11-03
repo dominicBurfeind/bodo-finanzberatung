@@ -1,4 +1,4 @@
-# bodo-Finanzberatung Homepage  (http://bodo-finanzberatung.de)
+# Bodo-Finanzberatung Homepage  (http://bodo-finanzberatung.de)
  
 Diese Webseite wurde für Marko Bodo, einen Finanzberater ohne bisherige Online-Präsenz, entwickelt. Das Projekt umfasst die komplette Umsetzung von der Planung über die Entwicklung bis zum Hosting. Die Webseite wurde mit modernen Webtechnologien wie **HTML**, **CSS** und **React** erstellt und verwendet **EmailJS** für die Formularverarbeitung.
 
