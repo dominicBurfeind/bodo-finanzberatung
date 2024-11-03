@@ -1,0 +1,109 @@
+/* Footer */
+/* src/components/Footer/Footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--AkkzentFarbe1); /* Dunkler Hintergrund */
+  color: #fff; /* Weiße Schriftfarbe */
+  padding: 80px;
+  text-align: left; /* Zentriere den Text */
+}
+
+.footer img {
+  width: 200px;
+}
+
+.footer table {
+  margin: 0 auto; /* Zentriere die Tabelle */
+  width: 60%; /* Breite der Tabelle */
+  border-collapse: collapse; /* Entfernt Lücken zwischen Tabellenzellen */
+}
+
+.footer th {
+  font-size: 1rem; /* Schriftgröße der Kopfzeile */
+  padding-bottom: 10px; /* Abstand unterhalb der Kopfzeile */
+  text-transform: uppercase; /* Großbuchstaben */
+  color: white; /* Goldene Farbe für die Kopfzeilen */
+}
+
+.footer td {
+  font-size: 0.8rem; /* Schriftgröße der Zellen */
+  padding: 15px 0; /* Abstand oben und unten in den Zellen */
+}
+
+.footer a {
+  color: var(--HauptFarbe); /* Goldene Farbe für Links */
+  text-decoration: none; /* Entfernt die Unterstreichung */
+  transition: color 0.3s ease; /* Sanfter Übergang für Farbänderung */
+}
+
+.footer a:hover {
+  color: #ffffff; /* Weiße Farbe beim Hover */
+}
+
+.footer tfoot {
+  margin-top: 20px; /* Abstand über der Fußzeile */
+}
+
+.footer tfoot td {
+  font-size: 14px; /* Kleinere Schriftgröße für die Fußzeile */
+  color: #aaa; /* Hellere Farbe für den Text */
+}
+
+
+/* Media Query*/
+/* Für Tablets (768px und kleiner) */
+@media (max-width: 980px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer table {
+    width: 100%; /* Vollständige Breite für die Tabelle */
+  }
+
+  .footer th {
+    font-size: 16px; /* Kleinere Schriftgröße für die Kopfzeilen */
+    padding-bottom: 8px;
+  }
+
+  .footer td {
+    font-size: 14px; /* Kleinere Schriftgröße für die Zellen */
+    padding: 8px 0;
+  }
+
+  .footer tfoot td {
+    font-size: 12px; /* Kleinere Schriftgröße für die Fußzeile */
+  }
+}
+
+/* Für Mobile Geräte (480px und kleiner) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer table {
+    width: 100%; /* Vollständige Breite der Tabelle */
+  }
+
+  .footer img {
+    width: 25%;
+  }
+
+  .footer th, .footer td {
+    font-size: 10px; /* Noch kleinere Schriftgröße */
+    padding: 6px 10px;
+  }
+
+  .footer td {
+    font-size: 10px; /* Noch kleinere Schriftgröße für die Zellen */
+  }
+
+  .footer tfoot td {
+    font-size: 10px; /* Kleinere Schriftgröße für die Fußzeile */
+  }
+}
+

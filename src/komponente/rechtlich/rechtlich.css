@@ -1,0 +1,45 @@
+/* Rechtlich */
+section h1 {
+  font-size: 3rem;
+  padding: 30px;
+  letter-spacing: 1.5px;
+}
+
+.rechtlicher-content {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.7px;
+  word-spacing: 2px;
+}
+
+.rechtlicher-content ol li {
+  list-style: decimal;
+}
+
+.rechtlicher-content ol li p {
+  margin: 7.5px;
+}
+
+.rechtlicher-content ol li span {
+  font-weight: 700;
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+
+.rechtlicher-container {
+  margin: 35px 0;
+}
+
+section {
+  margin: 75px 0;
+}
+
+@media (max-width: 930px) {
+  section h1 {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+}

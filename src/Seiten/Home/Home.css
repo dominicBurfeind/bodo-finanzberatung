@@ -1,0 +1,798 @@
+/* Header*/
+.homepage header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+  height: 80vh;
+  background-image: url(/family.jpg);
+  background-position: cover;
+  background-size: 100%;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00336680;
+  width: 60%;
+  border-radius: 2px;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+header h1 {
+  font-size: 3.2rem;
+  color: #ffffff;
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  word-spacing: 3px;
+}
+
+header p {
+  text-align: center;
+  color: #ffffff90;
+  font-size: 0.85rem;
+  padding: 15px;
+}
+
+.homepage header .header-cta {
+  background: linear-gradient(to right, var(--HauptFarbe) 50%, var(--AkkzentFarbe1) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+  border-radius: 4px;
+  width: 60%;
+  padding: 25px 0;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 15px #ffffff49;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background-position 0.4s ease, color 0.3s ease;
+}
+
+.homepage header a:hover {
+  background-position: left bottom;
+}
+
+
+
+/* Über uns */
+.hp-über-uns {
+  margin-top: 75px;
+  background-color: #fefefeea;
+}
+
+.hp-über-uns-content {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  position: relative;
+  justify-content: center;
+  background-color: var(--AkkzentFarbe1);
+}
+
+
+.hp-über-uns-img {
+  grid-column: 1/1;
+  width: 60%;
+  margin-left: 100px;
+  border-radius: 4px;
+}
+
+.hp-über-uns-text {
+  grid-column: 2/2;
+  grid-row: 1/5;
+  padding: 0 10px;
+  width: 100%;
+  background-color: white;
+}
+
+.hp-über-uns-text .hp-über-uns-text-content p {
+  margin: 30px 0;
+  font-size: 1.1rem;
+  word-spacing: 3px;
+  color: var(--SchwarzerText);
+}
+
+.hp-über-uns-text .hp-über-uns-text-content p strong {
+  font-weight: 700;
+  color: var(--AkkzentFarbe2);
+}
+
+
+.hp-über-uns-img img {
+  width: 100%;
+  background-color: var(--AkkzentFarbe1);
+}
+
+.hp-über-uns h2 {
+  grid-column: 1/1;
+  padding: 0 40px;
+  font-size: 2.25rem;
+  margin: 50px 0;
+  color: white;
+}
+
+.hp-über-uns-content p {
+  padding: 0 20px;
+  font-size: 1.2rem;
+  margin: 40px 0;
+  color: var(--SchwarzerText);
+}
+
+.hp-über-uns-content .kontakt-cta {
+  float: left;
+  background: linear-gradient(to left, var(--AkkzentFarbe2) 50%, var(--AkkzentFarbe1) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+  border-radius: 4px;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 25px 10px 0px 10px;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 0px 2px 15px #00000049;
+  font-size: 1.1rem;
+  transition: background-position 0.5s ease, color 0.3s ease;
+}
+.hp-über-uns-content a:hover {
+  background-position: left bottom;
+}
+
+.hp-über-uns-werte {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 150px 0;
+}
+
+.hp-über-uns-werte figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 2px 10px #ffc107c5;
+  border: 0.5px solid var(--AkkzentFarbe2);
+  border-radius: 4px;
+  color: var(--SchwarzerText);
+  height: 40vh;
+  width: 20%;
+}
+
+.hp-über-uns-werte figure img {
+  width: 50px;
+  margin: 30px 0;
+}
+
+.hp-über-uns-werte figure figcaption {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.hp-über-uns-werte figure p {
+  padding: 10px 5px;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+
+
+/* Vorteile mit uns */
+.kriterium {
+  height: 80vh;
+  margin: 55px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.kriterium-text-content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--AkkzentFarbe2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kriterium h2 {
+  font-weight: bolder;
+  font-size: 2.75rem;
+  margin-top: 30px;
+}
+
+.krit-content p {
+  font-size: 1rem;
+  margin: 50px 0;
+  font-weight: 600;
+  padding: 20px;
+}
+
+
+.krit-content,
+.kriteriumFamilien-text-content .krit-content {
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.krit-content h2 {
+  padding: 5px;
+  text-align: center;
+}
+
+.krit-content p {
+  text-align: center;
+}
+
+.kriterium .kriterium-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.kriterium .kriterium-content .kriterium-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.kriterium .kriterium-content .kriterium1 {
+  background-image: url(/talking.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriterium .kriterium-content .kriterium1:hover {
+  background-size: 110%;
+  cursor: pointer;
+  box-shadow: 0px 2px 40px var(--AkkzentFarbe2);
+}
+.kriterium .kriterium-content .kriterium1:hover + .kriterium .kriterium-text-content {
+  display: block;
+}
+
+.kriterium .kriterium-content .kriterium2 {
+  background-image: url(/crash.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriterium .kriterium-content .kriterium2:hover {
+  background-size: 110%;
+  cursor: pointer;
+  box-shadow: 0px 2px 40px var(--AkkzentFarbe2);
+}
+.kriterium .kriterium-content .kriterium3 {
+  background-image: url(/building.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriterium .kriterium-content .kriterium3:hover {
+  background-size: 110%;
+  cursor: pointer;
+  box-shadow: 0px 2px 40px var(--AkkzentFarbe2);
+}
+.kriterium .kriterium-content .kriterium4 {
+  background-image: url(/reading.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriterium .kriterium-content .kriterium4:hover {
+  background-size: 110%;
+  cursor: pointer;
+  box-shadow: 0px 2px 70px var(--AkkzentFarbe2);
+}
+
+.kriterium .kriterium-content .kriterium-container p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* Vorteile Für familien */
+.kriteriumFamilien {
+  height: 80vh;
+  margin: 55px 0;
+  display: flex;
+  align-items: center;
+}
+
+.kriteriumFamilien h2 {
+  font-weight: bolder;
+  font-size: 2.75rem;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+
+.kriteriumFamilien .kriterium-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.kriteriumFamilien-text-content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--AkkzentFarbe1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.kriteriumFamilien-text-content .krit-content p {
+  font-size: 1rem;
+  margin: 50px 0;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.kriteriumFamilien-text-content .krit-content {
+  text-align: left;
+}
+
+.kriteriumFamilien .kriterium-content .kriterium-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.kriteriumFamilien .kriterium-content .kriterium1 {
+  background-image: url(/familiestrand.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriteriumFamilien .kriterium-content .kriterium1:hover {
+  background-size: 110%;
+  background-position: 100%;
+  cursor: pointer;
+  box-shadow: 0px 2px 40px var(--AkkzentFarbe1);
+}
+.kriteriumFamilien .kriterium-content .kriterium2 {
+  background-image: url(/muttersohn.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriteriumFamilien .kriterium-content .kriterium2:hover {
+  background-size: 110%;
+  cursor: pointer;
+  box-shadow: 0px 2px 40px var(--AkkzentFarbe1);
+}
+.kriteriumFamilien .kriterium-content .kriterium3 {
+  background-image: url(/familieberg.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriteriumFamilien .kriterium-content .kriterium3:hover {
+  background-size: 110%;
+  cursor: pointer;
+  box-shadow: 0px 2px 40px var(--AkkzentFarbe1);
+}
+.kriteriumFamilien .kriterium-content .kriterium4 {
+  background-image: url(/glasses.jpg);
+  background-size: 100%;
+  background-position: 100%;
+  transition: background-size 0.3s ease, box-shadow 0.5s ease;
+}
+.kriteriumFamilien .kriterium-content .kriterium4:hover {
+  background-size: 110%;
+  cursor: pointer;
+  box-shadow: 0px 2px 40px var(--AkkzentFarbe1);
+}
+
+.kriteriumFamilien .kriterium-content .kriterium-container p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: right;
+  padding: 0 20px;
+}
+
+
+/* Dienstleistungen */
+.dienstleistung {
+  height: 50vh;
+  margin: 100px 0;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.dienstleistung-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.dienstleistung-content .dienstleistung-container img {
+  width: 100%;
+  height: 100%;
+  filter: blur(1.5px);
+  transition: 0.5s ease;
+}
+
+.dienstleistung-content .dienstleistung-container img:hover {
+  filter: blur(5px);
+}
+
+.dienstleistung-content .dienstleistung-container {
+  position: relative;
+}
+
+.dienstleistung h2 {
+  font-size: 3rem;
+  margin: 30px;
+  color: var(--SchwarzerText);
+}
+
+.dienstleistung-content .dienstleistung-container a {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  background: linear-gradient(to left, var(--AkkzentFarbe1) 50%, var(--AkkzentFarbe2) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+  width: 70%;
+  padding: 20px 0px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0px 2px 15px #00000049;
+  font-size: 1.2rem;
+  transition: background-position 0.4s ease, color 0.3s ease;
+  z-index: 1;
+}
+
+.dienstleistung-content .dienstleistung-container a:hover {
+  background-position: left bottom;
+}
+
+
+
+/* Beratung */
+.beratung {
+  margin: 200px 0;
+  text-align: center;
+}
+
+.beratung h2 {
+  font-size: 3.5rem;
+  color: #000000d0;
+}
+
+.beratung p {
+  margin: 10px 0 70px 0;
+  padding: 0 20px;
+  color: #1c1c1c89;
+}
+
+.beratung a {
+  background: linear-gradient(to left, var(--AkkzentFarbe1) 50%, var(--AkkzentFarbe2) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+  transition: background-position 0.4s ease, color 0.3s ease;
+  padding: 30px 100px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+.beratung a:hover {
+  background-position: left bottom;
+  color: white;
+}
+
+
+/* Media Query*/
+
+@media (max-width: 930px) {
+  /* Header */
+  .homepage header {
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .header-content {
+    width: 80%;
+    margin-top: 0;
+    padding: 20px 0;
+  }
+
+  .homepage header h1 {
+    font-size: 2.5rem;
+    padding: 20px;
+  }
+
+  header p {
+    font-size: 0.8rem;
+    width: 90%;
+
+  }
+
+  .homepage header .header-cta {
+    width: 80%;
+    padding: 15px 0;
+    font-size: 1rem;
+    margin: 0px;
+  }
+
+  /* Über uns */
+  .hp-über-uns-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .hp-über-uns-content h2 {
+    width: 60%;
+    font-size: 2.25rem;
+  }
+
+  .hp-über-uns-img {
+    max-width: 35%;
+    min-width: 30%;
+    margin: 0 0 20px 0;
+  }
+
+  .hp-über-uns-img img {
+    border-radius: 2px;
+    background-color: var(--AkkzentFarbe1);
+  }
+
+  .hp-über-uns-content .kontakt-cta {
+    width: 95%;
+  }
+
+  .hp-über-uns-text {
+    padding: 0 20px;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .hp-über-uns-text p {
+    font-size: 1.1rem;
+  }
+
+
+
+  .hp-über-uns-werte {
+    flex-direction: column;
+    margin: 100px 0;
+  }
+
+  .hp-über-uns-werte figure {
+    width: 80%;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  /* Vorteile mit uns & Familien */
+  .kriterium,
+  .kriteriumFamilien {
+    height: 400px;
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+  }
+
+  .kriterium h2,
+  .kriteriumFamilien h2 {
+    font-size: 1.5rem;
+  }
+
+  .kriterium-text-content {
+    width: 100%;
+  }
+
+  .krit-content h2,
+  .kriteriumFamilien .kriterium-text-content .krit-content h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+
+  .krit-content p,
+  .kriteriumFamilien .krit-content p {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .kriterium .kriterium-content .kriterium-container,
+  .kriteriumFamilien .kriterium-content .kriterium-container {
+    text-align: center;
+
+  }
+
+  .kriterium .kriterium-content .kriterium-container:hover,
+  .kriteriumFamilien .kriterium-content .kriterium-container:hover {
+    padding: 0px;
+  } 
+
+  .kriterium .kriterium-content .kriterium-container p,
+  .kriteriumFamilien .kriterium-content .kriterium-container p {
+    font-size: 0.8rem;
+    padding: 0 10px;
+  }
+
+
+
+  /* Rezensionen */
+  .rezensionen-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .rezensionen figure {
+    width: 100%;
+  }
+
+
+
+  /* Dienstleistungen */
+  .dienstleistung {
+    margin-top: 100px;
+    height: auto;
+  }
+
+  .dienstleistung-content {
+    flex-direction: row;
+  }
+
+  .dienstleistung h2 {
+    font-size: 2.5rem;
+    margin: 20px;
+  }
+
+  .dienstleistung-content .dienstleistung-container p {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 1rem;
+  }
+
+  .dienstleistung-content .dienstleistung-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .dienstleistung-content .dienstleistung-container a {
+    width: 90%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  /* Beratung */
+  .beratung {
+    margin: 80px 0;
+  }
+
+  .beratung h2 {
+    font-size: 2.75rem;
+  }
+
+  .beratung a {
+    padding: 20px 50px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Header */
+  .homepage header {
+    height: 60vh;
+  }
+
+  .header-content {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    padding: 15px;
+  }
+
+  header p {
+    font-size: 0.75rem;
+  }
+
+  .homepage header .header-cta {
+    width: 70%;
+    padding: 15px 5px;
+    font-size: 0.9rem;
+  }
+
+  /* Über uns */
+  .hp-über-uns {
+    margin-top: 0;
+  }
+  .hp-über-uns-content h2 {
+    font-size: 2.5rem;
+    margin: 30px 0;
+    width: 100%;
+  }
+
+  .hp-über-uns-img {
+    width: 60%;
+  }
+
+  .hp-über-uns-content p {
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+
+  .hp-über-uns-content .kontakt-cta {
+    margin: 20px 0;
+  }
+
+  /* Vorteile mit uns & Familien */
+  .kriterium h2,
+  .kriteriumFamilien h2 {
+    font-size: 1rem;
+  }
+
+  /* Rezensionen */
+  .rezensionen h2 {
+    font-size: 2.5rem;
+  }
+
+  /* Dienstleistungen */
+  .dienstleistung h2 {
+    font-size: 2rem;
+  }
+
+  .dienstleistung-content .dienstleistung-container p {
+    font-size: 0.9rem;
+  }
+
+  .dienstleistung-content .dienstleistung-container a {
+    font-size: 0.8rem;
+  }
+
+  /* Beratung */
+  .beratung h2 {
+    font-size: 2.5rem;
+  }
+
+  .beratung {
+    font-size: 0.8rem;
+  }
+
+  .beratung a {
+    padding: 15px 30px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+

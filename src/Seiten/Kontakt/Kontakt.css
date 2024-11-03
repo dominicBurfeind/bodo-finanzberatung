@@ -1,0 +1,182 @@
+/* Kontakt */
+/* Kontaktformular */
+.kontakt-formular {
+  margin: 100px 0;
+  background-color: #fefefeea;
+  padding: 50px;
+  box-shadow: 0px 2px 10px #00000026;
+  border-radius: 8px;
+
+}
+
+.kontakt-formular h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.kontakt-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.kontakt-form {
+  width: 60%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid var(--AkkzentFarbe2);
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px var(--AkkzentFarbe2);
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--AkkzentFarbe1);
+  outline: none;
+}
+
+.kontakt-btn {
+  background: linear-gradient(to left, var(--AkkzentFarbe1) 50%, var(--AkkzentFarbe2) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0px 2px 15px #00000049;
+  transition: background-position 0.4s ease, box-shadow 0.3s ease;
+}
+
+.kontakt-btn:hover {
+  background-position: left bottom;
+  box-shadow: 0px 2px 15px #000000a8;
+}
+
+.kontakt-info {
+  width: 35%;
+  padding: 20px;
+  background-color: var(--AkkzentFarbe2);
+  box-shadow: 0px 2px 10px #00000026;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.kontakt-info p img {
+  width: 70%;
+}
+
+.kontakt-info p:nth-child(2) {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.kontakt-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Media Querys */
+@media screen and (max-width: 980px) {
+  .kontakt-formular {
+    padding: 30px;
+  }
+
+  .kontakt-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kontakt-form h2 {
+    font-size: 2.5rem;
+  }
+
+  .kontakt-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .kontakt-info {
+    width: 80%;
+    margin: 50px 0;
+  }
+
+  .kontakt-info h3 {
+    font-size: 1.8rem;
+  }
+
+  .kontakt-info p {
+    font-size: 0.95rem;
+  }
+
+  .kontakt-form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .kontakt-formular {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kontakt-form h2 {
+    font-size: 2rem;
+  }
+
+  .form-group label {
+    font-size: 1rem;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .kontakt-btn {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .kontakt-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .kontakt-info p {
+    font-size: 0.85rem;
+  }
+}

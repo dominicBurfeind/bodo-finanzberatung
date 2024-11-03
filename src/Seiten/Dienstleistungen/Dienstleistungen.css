@@ -1,0 +1,312 @@
+/* Dienstleistungen */
+.Dl-seite-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dl-seite h1 {
+  font-size: 4rem;
+  margin: 50px 0px 35px 50px;
+}
+
+.Dl-seite p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #0000006a;
+  padding: 0 40px;
+}
+
+.Dl-seite-container {
+  position: relative;
+  width: 70%;
+  margin: 40px;
+  cursor: pointer;
+}
+
+.Dl-seite-container img {
+  width: 100%;
+  transition: filter 0.3s ease, box-shadow 0.5s ease;
+  border-radius: 4px;
+}
+.Dl-seite-container img:hover {
+  filter: blur(2px);
+  box-shadow: 0px 3px 15px var(--AkkzentFarbe2);
+}
+
+.Dl-seite-container p {
+  background: linear-gradient(to left, var(--AkkzentFarbe1) 50%, var(--AkkzentFarbe2) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  position: absolute;
+  top: 20%;
+  font-size: 1.65rem;
+  width: 60%;
+  color: white;
+  font-size: bold;
+  padding: 20px;
+  transition: background-position 0.4s ease, color 0.3s ease;
+}
+.Dl-seite-container p:hover {
+  background-position: left bottom;
+}
+
+
+/* Finanzberatung */
+.header {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  color: var(--SchwarzerText);
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #575757a7;
+}
+
+.versicherung-content {
+  background: linear-gradient(to bottom, var(--HauptFarbe) 1%, var(--AkkzentFarbe1) 40%, var(--HauptFarbe) 100%, var(--AkkzentFarbe1) 100%);
+}
+
+.finanz-content {
+  background: linear-gradient(to bottom, var(--AkkzentFarbe1) 10%, var(--HauptFarbe) 70%, var(--AkkzentFarbe1) 100%);
+}
+
+.finanz-content,
+.versicherung-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 75px;
+  padding: 20px;
+}
+
+.section {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin: 30px 10px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.section p {
+  font-size: 1.4rem;
+  color: #ffffff;
+  line-height: 1.6;
+  width: 100%;
+  font-weight: 400;
+}
+
+.section-content-row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 40%;
+}
+
+.section-content-row1 img {
+  width: 100%;
+}
+
+.section nav {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.section nav h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: black;
+  text-align: left;
+}
+
+.section nav ul {
+  text-align: left;
+}
+
+.section nav ul li {
+  margin: 15px 0;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 300;
+}
+
+.section nav ul li span {
+  margin: 0 10px;
+  color: #0bb20b;
+}
+
+.versicherung-content .section a {
+  background: linear-gradient(to left, var(--HauptFarbe) 50%, var(--AkkzentFarbe1) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.4s ease, color 0.3s ease, color 0.3s ease;
+}
+
+.section a {
+  background: linear-gradient(to left, var(--AkkzentFarbe1) 50%, var(--HauptFarbe) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 17.5px;
+  margin: 60px 10px 25px 10px;
+  box-shadow: 0px 2px 10px #00000039;
+  font-size: 1rem;
+  transition: background-position 0.4s ease, color 0.3s ease, color 0.3s ease;
+}
+
+.section a:hover {
+  background-position: left bottom;
+  color: white;
+}
+
+
+@media (max-width: 900px) {
+
+  .Dl-seite h1 {
+    font-size: 2.25rem;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .Dl-seite p {
+    font-size: 0.9rem;
+  }
+
+  .Dl-seite-container p {
+    font-size: 1.2rem;
+  }
+
+  .Dl-seite-container img {
+    border: 1.5px solid black;
+    border-radius: 0;
+  }
+  .Dl-seite-container img:hover {
+    border: none;
+  }
+  .Dl-seite-container {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  /* Finanzberatung & Versicherungen */
+  .section-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-content-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .section-content-row1 p {
+    font-size: 1.1rem;
+  }
+
+  .section-content-row1 img {
+    width: 50%;
+  }
+
+  .section-content nav {
+    width: 90%;
+    margin: 100px 0;
+  }
+  
+}
+
+@media (max-width: 480px) {
+
+  .header {
+    padding: 10px 0;
+  }
+
+
+  .header h1 {
+    font-size: 2.25rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+
+  .Dl-seite-container p {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .section-content-row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-content-row1 p {
+    text-align: center; 
+    padding: 0 20px;
+  }
+
+  .section-content-row1 img {
+    width: 100vw;
+  }
+
+  .section-content {
+    max-width: 100%; 
+    align-items: center;
+  }
+
+  .section-content nav {
+    width: 90vw;
+    margin: 50px 0;
+  }
+  .section-content nav ul li{
+    font-size: 1rem;
+  }
+
+  
+}

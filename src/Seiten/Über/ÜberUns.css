@@ -1,0 +1,269 @@
+/* AboutMe.css */
+
+.about-me {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.about-me-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-me-text {
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.about-me-content h2 {
+  font-size: 3rem;
+  color: var(--AkkzentFarbe2);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about-me-text p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: var(--SchwarzerText);
+  padding: 20px;
+}
+
+.about-me-text p strong {
+  color: var(--AkkzentFarbe2);
+  font-weight: bolder;
+}
+
+.about-me-img {
+  max-width: 350px;
+}
+
+.about-me-img img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Fakten */
+.fakten {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fakten .hp-über-uns-werte {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.fakten .hp-über-uns-werte figure {
+  box-shadow: 3px 5px 15px var(--AkkzentFarbe2);
+  border: 1px solid var(--AkkzentFarbe2);
+  width: 80%;
+  height: 100%;
+  margin: 50px 0;
+  display: block;
+}
+
+.fakten .hp-über-uns-werte figure figcaption {
+  font-size: 2rem;
+  padding: 20px 0;
+  font-weight: 700;
+}
+
+.fakt1-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40vh;
+}
+
+.fakten .fakt-content p {
+  font-size: 0.9rem;
+
+}
+
+.fakten .hp-über-uns-werte figure p {
+  padding-left: 20px;
+}
+
+.fakten .fakt1 .fakt-namen p{
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.fakten .fakt1 p:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fakten .hp-über-uns-werte figure ul li {
+  margin: 10px 70px;
+}
+
+.fakten .fakt1
+ {
+  background: var(--AkkzentFarbe2);
+}
+
+.fakten .fakt2 {
+  background: none;
+  color: black;
+  border: none;
+}
+
+.fakten .fakt2 figcaption {
+  color: black;
+  margin: 30px 0;
+}
+
+.fakten .fakt2 p {
+  margin: -30px 0;
+}
+
+.fakten .fakt2 p {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fakten .fakt2 p img {
+  width: 25px;
+  margin-right: 30px;
+}
+
+.fakt1,
+.fakt2,
+.fakt3,
+.fakt4 {
+  background-color: var(--AkkzentFarbe2);
+}
+
+.fakt1 p,
+.fakt1 figcaption,
+.fakt2 p,
+.fakt2 figcaption,
+.fakt3 p,
+.fakt3 figcaption,
+.fakt4 p,
+.fakt4 figcaption {
+  color: white;
+  text-align: left;
+}
+
+
+
+/* Rezensionen */
+.rezensionen {
+  padding: 50px 50px;
+  background-color: #ffffffce;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rezensionen h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--AkkzentFarbe1);
+}
+
+.rezensionen-text {
+  margin: 20px 0;
+  color: #000000a8;
+  font-size: 0.9rem;
+}
+
+.rezensionen-content {
+  margin-top: 75px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  gap: 60px;
+}
+
+.rezensionen figure {
+  border-radius: 6px;
+  padding: 30px;
+  box-shadow: 0px 2px 10px #00000046;
+  background-color: white;
+  width: 80%;
+}
+
+.rezensionen figure p {
+  font-weight: 500;
+  margin: 10px 0;
+  border-bottom: 1px solid var(--AkkzentFarbe2);
+  padding: 20px 0;
+  font-size: 1.2rem;
+}
+
+.rezensionen figure span {
+  font-size: 0.7rem;
+  color: #0000004d;
+}
+
+.rezensionen figure figcaption {
+  font-weight: 300;
+  margin: 20px 0;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .about-me-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .about-me-img {
+    margin-top: 20px;
+  }
+
+  /* Fakten */
+
+  .fakt1-content  {
+    height: auto;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+  
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .hp-über-uns-werte .fakt1 figcaption {
+    margin: 20px 0;
+  }
+
+  .hp-über-uns-werte .fakt2 figcaption {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
