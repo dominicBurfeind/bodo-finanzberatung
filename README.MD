@@ -1,6 +1,6 @@
 # bodo-Finanzberatung Homepage  (http://bodo-finanzberatung.de)
  
-Diese Webseite ist für Marko Bodo, einen Finanzberater, der bisher keine eigene Online-Präsenz hatte. Das Projekt umfasst die komplette Umsetzung – von der Planung und Entwicklung bis hin zum Hosting. Die Webseite wurde mit modernen Webtechnologien wie **HTML**, **CSS** und **React** erstellt, und für die Formularverarbeitung kommt **EmailJS** zum Einsatz.
+Diese Webseite wurde für Marko Bodo, einen Finanzberater ohne bisherige Online-Präsenz, entwickelt. Das Projekt umfasst die komplette Umsetzung von der Planung über die Entwicklung bis zum Hosting. Die Webseite wurde mit modernen Webtechnologien wie **HTML**, **CSS** und **React** erstellt und verwendet **EmailJS** für die Formularverarbeitung.
 
 ## Inhaltsverzeichnis
 
@@ -12,34 +12,37 @@ Diese Webseite ist für Marko Bodo, einen Finanzberater, der bisher keine eigene
 
 ## Projektübersicht
 
-Das Ziel dieses Projekts war es, eine benutzerfreundliche, responsive Webseite für einen Finanzdienstleister zu entwickeln, der seine Online-Präsenz und die Kommunikation mit seinen Kunden verbessern möchte. Die Webseite informiert über wichtige Dienstleistungen und ermöglicht durch ein integriertes Kontaktformular die direkte Kontaktaufnahme.
+Das Ziel dieses Projekts war es, eine benutzerfreundliche, responsive Webseite für einen Finanzdienstleister zu entwickeln, um seine Online-Präsenz und die Kommunikation mit Kunden zu verbessern. Die Webseite informiert über Dienstleistungen und ermöglicht durch ein integriertes Kontaktformular eine direkte Kontaktaufnahme.
 
-**Rolle im Projekt:** Ich war für den gesamten Prozess verantwortlich, vom Konzept über die Entwicklung bis hin zum Hosting.
+**Rolle im Projekt:** Ich war für den gesamten Prozess verantwortlich, vom Konzept über die Entwicklung bis zum Hosting.
 
 ## Technische Details
 
-In diesem Projekt kamen folgende Technologien und Tools zum Einsatz:
+Dieses Projekt basiert auf folgenden Technologien und Tools:
 
-- **React**: Für die dynamische Benutzeroberfläche und die Steuerung der Anwendungslogik.
+- **React**: Für die dynamische Benutzeroberfläche und Anwendungslogik.
+- **React Router**: Für die Navigation zwischen verschiedenen Seiten, die in einer Single-Page-Application (SPA)-Struktur umgesetzt wurden.
 - **HTML und CSS**: Für das responsive Layout und die Gestaltung.
-- **EmailJS**: Zum Versenden von Formularanfragen per E-Mail, ohne Backend.
+- **EmailJS**: Zum Versenden von Formularanfragen per E-Mail, ohne ein eigenes Backend.
 - **Ionos**: Als Hosting-Plattform für die Webseite.
 
   
 ## Hauptfunktionen
 
-- **Responsive Navigation**: Die Webseite ist für verschiedene Bildschirmgrößen optimiert und bietet ein Dropdown-Menü auf mobilen Geräten.
-- **Kontaktformular mit EmailJS**: Formulareingaben werden mithilfe von EmailJS direkt an die E-Mail-Adresse des Dienstleisters gesendet.
-- **Mehrseitige Struktur**: Die Webseite ist übersichtlich in mehrere Seiten unterteilt, die verschiedene Dienstleistungen und Informationen abdecken.
+- **Responsive Navigation**: Die Webseite passt sich an verschiedene Bildschirmgrößen an und bietet ein Dropdown-Menü auf mobilen Geräten.
+- **Kontaktformular mit EmailJS**: Anfragen, die über das Kontaktformular eingehen, werden mithilfe von EmailJS an die E-Mail-Adresse des Dienstleisters gesendet.
+- **Mehrseitige Struktur**: Die Webseite umfasst mehrere Seiten für die verschiedenen Dienstleistungen und Informationen, um die Benutzerfreundlichkeit zu verbessern.
 
 ## Technische Herausforderungen und Erkenntnisse
 
-- **State Management in React**: Eine der größten Herausforderungen war das effektive Management von Zuständen (State) in React. Die dynamische Benutzeroberfläche erforderte zahlreiche Zustandsänderungen, wie etwa das Ein- und Ausblenden des Menüs. Vor diesem Projekt war mein Wissen im Bereich State Management begrenzt, aber die Anforderungen dieser Anwendung haben mir geholfen, ein tieferes Verständnis für React-Hooks und States zu entwickeln.
+- **State Management in React**: Eine wesentliche Herausforderung war das effiziente Management von Zuständen (State) in React. Die dynamische Benutzeroberfläche erforderte zahlreiche Zustandsänderungen, etwa beim Öffnen und Schließen des Menüs. Vor diesem Projekt war mein Wissen im Bereich State Management begrenzt, aber die praktischen Anforderungen dieser Anwendung haben mein Verständnis für React-Hooks und -States deutlich erweitert.
 
-- **Formularverarbeitung mit EmailJS**: Da ich noch keine Backend-Kenntnisse besitze, brauchte ich eine Möglichkeit, Formulardaten zuverlässig per E-Mail zu übermitteln. EmailJS hat sich hier als praktische Lösung erwiesen, da es ohne Backend funktioniert und es mir ermöglicht, Kontaktanfragen problemlos zu verarbeiten. Diese Erfahrung hat mein Verständnis für API-Integrationen erweitert.
+- **Formularverarbeitung mit EmailJS**: Da ich noch keine Backend-Kenntnisse habe, brauchte ich eine Möglichkeit, Formulardaten zuverlässig per E-Mail zu übermitteln. EmailJS erwies sich hier als praktische Lösung, da es ohne Backend funktioniert. Diese Erfahrung hat mein Wissen im Bereich API-Integrationen vertieft.
 
-- **Responsives Design und Usability**: Das Erstellen eines responsive Designs, insbesondere für die Navigation, war eine weitere Herausforderung. Ich habe intensiv mit CSS-Media-Queries und Flexbox gearbeitet, um die Webseite auf allen Gerätetypen benutzerfreundlich zu gestalten. Diese Arbeit hat mein Wissen über responsive Design und die Optimierung der Benutzererfahrung vertieft.
+- **Routing mit React Router**: Die Implementierung von React Router stellte eine neue Herausforderung dar, da die Webseite eine mehrseitige Struktur in einer Single-Page-Application (SPA) umsetzt. React Router ermöglichte eine nahtlose Navigation zwischen den Seiten, erforderte jedoch ein präzises Verständnis des Komponenten- und State-Managements. Durch diese Arbeit habe ich mein Wissen über das Routing in React erweitert und gelernt, wie man eine benutzerfreundliche Navigation in einer SPA gestaltet.
+
+- **Responsives Design und Usability**: Ein responsive Design, insbesondere für die Navigation, war ebenfalls eine zentrale Herausforderung. Ich habe intensiv mit CSS-Media-Queries und Flexbox gearbeitet, um die Webseite auf allen Gerätetypen benutzerfreundlich zu gestalten. Diese Arbeit hat mein Wissen über responsive Design und die Entwicklung einer optimierten Nutzererfahrung erheblich vertieft.
 
 ## Fazit
 
-Durch dieses Projekt habe ich wertvolle praktische Erfahrung in React, State Management und der Integration von APIs wie EmailJS gesammelt. Die technischen Herausforderungen, vor allem in den Bereichen State Management und Formularverarbeitung, haben mein Verständnis deutlich erweitert und mir wichtige Perspektiven für zukünftige Projekte eröffnet.
+Dieses Projekt hat mir wertvolle praktische Erfahrungen mit React, State Management, React Router und der Integration von APIs wie EmailJS gebracht. Die Herausforderungen, vor allem im Bereich des State Managements, des Routings und der Formularverarbeitung, haben mein Verständnis für moderne Webentwicklung deutlich erweitert und mir wichtige Perspektiven für zukünftige Projekte eröffnet.
